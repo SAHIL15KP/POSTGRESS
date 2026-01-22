@@ -5,7 +5,7 @@ import { Client } from "pg";
 const app = express();
 app.use(express.json());
 
-const pgClient = new Client("postgresql://neondb_owner:npg_5BYUjzmElH8s@ep-ancient-mountain-ah98mymp-pooler.c-3.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require")
+const pgClient = new Client("")
 
 await pgClient.connect();
 
